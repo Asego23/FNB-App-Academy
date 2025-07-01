@@ -1,43 +1,37 @@
-.gallery img{
-    width: 100%;
-}
-
-h2{
-    color:rgb(33, 102, 73);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-style: normal;
+table{
+    color: #fff;
     text-align: center;
-    font-size: 30px;
+    border-collapse: collapse;
+    font: normal 3em Ariel, Helvetica, sans-serif;
 }
 
-h4{
-    color:blue;
-    font-family: 'Times New Roman', Times, serif;
-    font-style: normal;
-    font-size: 20px;
+tr{
+    height: 16.02vh;
+    background-color: #4e494d;
 }
 
-p{
-    font-family:'Times New Roman', Times, serif
+td{
+    width: 25vw;
+    border: 1px solid #4e494d;
 }
 
-#menu{
+#inputBox{
+    background-color: #4e494d;
+    text-align: right;
     width: 100%;
-    height:40px;
-    background-color: cornflowerblue;
-    padding:12px;
+    font-size: 2em;
+    color: #fff;
+    border: 0px;
 }
 
-#menu a{
-    color:#d108c7;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    text-decoration: none;
-    font-weight: 800;
-    padding-left: 20px;
-    padding-right: 20px;
+.digitButton{
+    background-color: #807e80;
 }
 
-#menu a:hover{
-    color: #5077bd;
+.operatorButton{
+    background-color: coral;
+}
+
+.ACButton{
+    background-color: #656165;
 }
